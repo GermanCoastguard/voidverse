@@ -20,11 +20,11 @@ Sleep, 20
 
 ; Text "rechner"
 Send, rechner
-Sleep, 40
+Sleep, 300
 
 ; "Enter"
 Send, {Enter}
-Sleep, 500
+Sleep, 1000
 
     ; Berechnungsteil
     Send, % "$" inp1 ; Kosten des Objekts
